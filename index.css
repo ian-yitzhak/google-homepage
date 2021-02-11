@@ -1,0 +1,123 @@
+	body{
+
+ 		font-family: Roboto , 'Segoe UI', Tahoma, sans-serif;
+ 		font-size: 81.25%;
+ 	}
+
+input{ 
+           
+
+    border-radius: 25px;
+    border: 2px solid white;
+    padding: 20px; 
+    width: 600px;
+    height: 5px;
+    color: black;
+    background: white;
+
+    outline: none;
+    border-color: #847b6c;
+    
+    text-align: start;
+    
+    
+        } 
+
+
+
+.content{
+
+	float: center;
+	padding-left: 400px;
+
+	padding-top: 30px;
+}
+img{
+	margin-left: 180px;
+}
+
+@media screen and (max-width: 992px) {
+
+  img{
+  margin-left: 60px;
+}
+
+
+
+
+	.search input[type=text]{ 
+    border-radius: 25px;
+    border: 2px solid white;
+    padding: 20px; 
+    width: 400px;
+    height: 3px;
+    color: black;
+    background: white;
+
+    outline: none;
+    border-color: #847b6c;
+    
+    text-align: start;
+  
+        } 
+
+
+	.content{
+
+	float: center;
+	padding-left: 0px;
+
+	padding-top: 100px; }
+
+
+	 
+
+
+
+ 
+}
+}
+
+.nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #0000;
+}
+
+.nav li {
+  float: right;
+}
+
+.nav li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+
+
+.footer ul {
+  list-style-type: none;
+  margin: 0;
+  
+  overflow: hidden;
+  background-color: #0000;
+  padding-top: 300px;
+}
+
+.footer li {
+  float: left;
+}
+
+.footer li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
